@@ -6,7 +6,11 @@
     <!-- Baaki zaroori YAAP trees (Common, Kernel, Vendor, Hardware) -->
     <project name="yaap/device_oneplus_sm8150-common" path="device/oneplus/sm8150-common" remote="github" revision="sixteen" />
     <project name="yaap/kernel_oneplus_sm8150" path="kernel/oneplus/sm8150" remote="github" revision="sixteen" />
-    <project name="yaap/hardware_oneplus" path="hardware/oneplus" remote="github" revision="sixteen" />
+    <project
+    path="hardware/oneplus"
+    name="yaap/hardware_oplus"
+    remote="github"
+    revision="sixteen" />
     <project name="yaap/vendor_oneplus_sm8150-common" path="vendor/oneplus/sm8150-common" remote="github" revision="sixteen" />
     <project name="yaap/vendor_oneplus_hotdogb" path="vendor/oneplus/hotdogb" remote="github" revision="sixteen" />
 </manifest>
